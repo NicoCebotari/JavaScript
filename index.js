@@ -6,5 +6,15 @@ function myFunction(){
 function concatena(){
     let Nom = document.getElementById("CampNom").value;
     let Llinatges = document.getElementById("CampLlinatges").value;
+
     alert("Hola"  + Nom + " " + Llinatges);
+}
+function parellOsenar(){
+    let numero = document.getElementById("numero").value;
+    if(numero%2==0){
+        alert("És Parell");
+    }
+    else{
+        alert("És senar");
+    }
 }
